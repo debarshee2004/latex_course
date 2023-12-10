@@ -1,2 +1,1 @@
-# latex_course
-Code from $LaTeX$ course
+# $LaTeX$ Course

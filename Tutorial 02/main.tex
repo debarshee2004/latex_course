@@ -1,0 +1,43 @@
+% Setting up Document Type
+\documentclass[12pt]{article}
+
+% Setting up Packages.
+\usepackage{graphicx} % Required for inserting images.
+\usepackage{titleps}
+\usepackage{fancyhdr}
+\usepackage{graphicx}
+\usepackage{lipsum} % For dummy text.
+
+% Page Styles
+\pagestyle{myheadings}
+\pagestyle{fancy}
+\fancyhf{}
+
+\setlength{\headheight}{30pt}
+
+\renewcommand{\headrulewidth}{4pt}
+\renewcommand{\footrulewidth}{2pt}
+
+\fancyhead[L]{\includegraphics[width=1cm]{example-image-a}}
+\fancyhead[C]{}
+\fancyhead[R]{\rightmark}
+\fancyfoot[L]{ABC}
+\fancyfoot[C]{\textcopyright xyz}
+\fancyfoot[R]{\thepage}
+
+% The Title of the Page.
+\title{Tutorial}
+\author{Debarshee Chakraborty}
+\date{December 2023}
+
+\begin{document}
+
+\section{First Section}
+\subsection{One}
+    \lipsum[1-3]
+\subsection{Two}
+    \lipsum[4-6]
+
+
+
+\end{document}
