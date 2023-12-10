@@ -1,0 +1,25 @@
+\documentclass{article}
+\usepackage{graphicx} % Required for inserting images
+\usepackage[table]{xcolor}
+
+\newcolumntype{a}{>{\columncolor{yellow}}c}
+\newcolumntype{b}{>{\columncolor{green}}c}
+
+\title{Tutorial 05}
+\author{Debarshee Chakraborty}
+\date{December 2023}
+
+\begin{document}
+
+\maketitle
+
+Coloring Columns
+
+\begin{tabular}{a | >{\columncolor{red}}c | l | b}
+    \hline
+    A & B & C & D \\
+    E & F & G & H \\
+    \hline
+\end{tabular}
+
+\end{document}
